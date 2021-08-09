@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Galada|Heebo);
+.wholeBorder {
+	padding-top: 10px;
+	margin: auto;
+	height: 500px;
+	width: 40%;
+	border: 1px solid #051643;
+	background-image: url(../img/background.jpg);
+	color: black;
+}
+.border {
+	margin: auto;
+	height: 200px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.border img {
+	width: 100%;
+	height: 200px;
+}
+.name {
+	font-family: "Galada", cursive;
+	text-align: center;
+}
+.category,
+.date {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+.description {
+	margin-top: 5px;
+	text-align: justify;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	font-weight: 500;
+	font-size: 16px;
+	overflow: auto;
+}
+@media all and (max-width: 745px) {
+	.wholeBorder {
+		margin-top: 30px;
+		width: 90%;
+		height: 70vh;
+	}
+}

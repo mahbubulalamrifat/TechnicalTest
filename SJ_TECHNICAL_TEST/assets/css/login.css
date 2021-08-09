@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+.loginbox {
+	background-color: #ecf0f3;
+	box-shadow: 13px 13px 25px #cbced1, -13px -13px 25px #fff;
+	width: 420px;
+	height: 520px;
+	border-radius: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.outer {
+	height: 110px;
+	width: 110px;
+	top: -50px;
+	border-radius: 50%;
+	left: calc(50% - 50px);
+	position: absolute;
+	box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaaf,
+		-8px -8px 15px #fff;
+}
+.outer-1 {
+	position: relative;
+}
+.logo {
+	position: absolute;
+	height: 90px;
+	width: 100px;
+	object-fit: contain;
+	margin-left: 0.4rem;
+}
+.title {
+	text-align: center;
+	margin: 0 auto;
+	padding: 70px 0px 0px;
+	font-size: 30px;
+	color: black;
+}
+
+.error-text {
+	color: #721c24;
+	background: #f8d7da;
+	padding: 8px 1px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #f5c6cb;
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	margin-top: 20px;
+}
+
+.success-text {
+	border: 1px solid rgb(188, 232, 241);
+	background-color: rgb(217, 237, 247);
+	color: rgb(70, 136, 71);
+	padding: 8px 1px;
+	text-align: center;
+	border-radius: 5px;
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	margin-top: 20px;
+}
+
+.form {
+	width: 90%;
+	padding: 75px 0px 10px;
+}
+
+.form input {
+	align-items: center;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 15px;
+	color: #555;
+	padding: 15px;
+	padding-left: 50px;
+}
+
+.username,
+.password {
+	margin-left: 40px;
+	margin-bottom: 30px;
+	border-radius: 25px;
+	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+	position: relative;
+}
+
+.usericon {
+	height: 22px;
+	width: 22px;
+	position: absolute;
+	fill: #aaa;
+	right: 87%;
+	top: 30%;
+}
+.passicon {
+	height: 22px;
+	width: 22px;
+	position: absolute;
+	fill: #aaa;
+	right: 87%;
+	top: 30%;
+}
+
+.input2::-ms-reveal {
+	display: none;
+}
+.input2 {
+	width: 280px;
+}
+.input:focus + .usericon {
+	fill: #555;
+}
+
+.input2:focus + .passicon {
+	fill: #555;
+}
+
+.button_position {
+	margin-left: 105px;
+}
+
+.button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	height: 50px;
+	border-radius: 30px;
+	font-size: 20px;
+	font-weight: 700px;
+	color: #fff;
+	text-align: center;
+	background-color: #02c8db;
+	box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+	justify-items: center;
+	position: absolute;
+	font-family: lato;
+}
+
+.button:hover {
+	background-color: #50e5b9;
+}
+.button:active {
+	background-color: #88ef9e;
+}
+.link {
+	padding-top: 80px;
+	padding-right: 10px;
+	text-align: center;
+	font-size: 18px;
+	color: #aaa;
+}
+.toggle-password {
+	position: absolute !important;
+	top: 35% !important;
+	left: 85% !important;
+}
+@media only screen and (max-width: 600px) {
+	body {
+		overflow: hidden;
+	}
+	.loginbox {
+		height: 520px;
+		width: 330px;
+	}
+	.usericon {
+		right: 87%;
+		top: 30%;
+	}
+	.passicon {
+		right: 87%;
+		top: 30%;
+	}
+	.button_position {
+		margin-left: 85px;
+	}
+	.form {
+		margin-right: 100px;
+	}
+	.toggle-password {
+		position: absolute;
+		left: 85%;
+		top: 35%;
+	}
+}

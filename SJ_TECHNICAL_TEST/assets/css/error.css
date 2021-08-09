@@ -1,0 +1,50 @@
+.error-text {
+	color: #721c24;
+	background: #f8d7da;
+	padding: 8px 1px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #f5c6cb;
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	margin-top: 20px;
+}
+
+.success-text {
+	border: 1px solid rgb(188, 232, 241);
+	background-color: rgb(217, 237, 247);
+	color: rgb(70, 136, 71);
+	padding: 8px 1px;
+	text-align: center;
+	border-radius: 5px;
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	margin-top: 20px;
+}
+.errorText {
+	color: #721c24;
+	background: #f8d7da;
+	padding: 8px 1px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #f5c6cb;
+	margin-bottom: 5px;
+}
+
+.successText {
+	color: rgb(70, 136, 71);
+	background-color: rgb(217, 237, 247);
+	padding: 8px 1px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid rgb(188, 232, 241);
+	margin-bottom: 5px;
+}
+
+.closebtn {
+	float: right !important;
+	cursor: pointer;
+	padding-left: 5px;
+}
