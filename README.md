@@ -6,7 +6,7 @@
 
 #Create a Database 
 
-#Give name "sjtest" (" ") for database
+#Give name "sjtest" (without " ") for database
 
 #Import databse from file which one you downloaded
 
